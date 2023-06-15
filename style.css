@@ -1,0 +1,81 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Slab&display=swap');
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto Slab', serif;
+    color: #fff;
+}
+
+body{
+    background: linear-gradient(135deg, rgb(157, 98, 212), rgb(143, 60, 199));
+    width: 100%;
+    min-height: 100%;
+    height: 100vh;
+}
+
+h1{
+    color: #e7c9ff;
+    text-align: center;
+}
+
+
+div{
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    max-width: 300px;
+    width: 90%;
+    margin: 20px auto;
+    padding: 20px 20px;
+
+    background-color: rgba(255, 255, 255, .25);
+    backdrop-filter: blur(15px);
+    border: 1px solid #e7c9ff;
+    border-bottom: 1px solid rgba(255, 255, 255, .25);
+    border-right: 1px solid rgba(255, 255, 255, .25);
+    border-radius: 20px;
+}
+
+p{
+    font-size: 1.2rem;
+    margin-bottom: 3px;
+    margin-top: 10px;
+}
+
+input{
+    border: none;
+    border-radius: 5px;
+    height: 25px;
+    color: #8208e6;
+    font-size: 1rem;
+    padding-left: 10px;
+    width: 100%;
+}
+
+input:focus{
+    outline: 2px solid rebeccapurple;
+}
+
+button{
+    margin: 15px auto 5px;
+    color: #22003d;
+    font-size: 0.9rem;
+    text-transform: uppercase;
+    box-sizing: content-box;
+    border: none;
+    border-radius: 20px;
+    padding: 8px 16px;
+    background-color: #e7c9ff;
+}
+
+span, b{
+    text-align: center;
+    width: 100%;
+    font-size: 1rem;
+}
+
+b{
+    letter-spacing: 1px;
+}
